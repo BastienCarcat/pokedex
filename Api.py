@@ -24,5 +24,7 @@ def getPokemon(url):
         height = result_r_pokemon["height"]
         weight = result_r_pokemon["weight"]
         types = result_r_pokemon["types"][1]["type"]["name"]
-        pokemon = Pokemon(name, height, weight, types)
+        backImg = result_r_pokemon["sprites"]["back_default"]
+        frontImg = result_r_pokemon["sprites"]["front_default"]
+        pokemon = Pokemon(name, height, weight, types, frontImg, backImg)
         return pokemon
