@@ -16,7 +16,8 @@ $ .\Scripts\activate
 
 $ py .\Main.py
 
-(pour sortir de l'environnement virutel :)
+(pour sortir de l'environnement virutel)
+
 $ deactivate
 
 ## Explication technique :

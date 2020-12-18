@@ -179,8 +179,6 @@ class WidgetPokemon(QWidget):
         # récupère le text saisie
         search = self.search.text()
 
-        # url = ""
-
         r_api = getAllPokemon()
         
         # Boucle qui permet d'afficher le nom des pokemons de notre liste
@@ -194,7 +192,6 @@ class WidgetPokemon(QWidget):
                 break
             else:
                 self.label.setText("Ce pokemon n'existe pas")
-        # return url
 
 
 def main():
